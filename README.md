@@ -5,7 +5,7 @@
 
 Выполненным заданием будет считаться архив с проектом Visual Studio, а также SQL-скриптом для создания базы данных. В базе данных уже должны содержаться маркеры. При работе с базой данных нельзя пользоваться никакими фреймворками (EntityFramework и т.д.), необходимо использовать T-SQL.
 
-**Запуск:**
+## Запуск:
 Для создания БД необходимо выпонить скрипт CreateDB.sql в Microsoft SQL Server Management Studio, скачать файлы: Code -> Download ZIP, распаковать и запустить GMap.sln в Microsoft Visual Studio, или из Microsoft Visual Studio выполнить клонирование репозитория: расположение https://github.com/Katerina-Seren/GMapTestTask.git -> клонировать. 
 ##
 В Map.cs измените 37 строка unitService = new UnitService(@"Data Source=ваша строка подключения");
